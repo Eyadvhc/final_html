@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.clear-fix{
+    clear: both;
+}
+#home{
+    background-image: url('/home.jpg');
+    height: 100vh;
+    background-size: 100%;
+}
+#home .navbar{
+    background-color: rgba(0, 0, 0, 0.492);
+}
+#home .navbar img{
+    float: left;
+    width: 100px; 
+}
+#home .navbar ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+#home .navbar ul li{
+    display: inline-block;
+}
+#home .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.home_info{
+    text-align: center;
+    color: white ;
+    padding-top: 150px;
+}
+.home_info h1{
+    font-size: 45px;
+}
+.home_info p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.home_info .btn1{
+    background-color: burlywood;
+    padding :15px 20px ;
+}
+.home_info .btn2{
+    background-color: white;
+    padding :15px 20px ;
+}
